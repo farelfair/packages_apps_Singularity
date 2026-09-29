@@ -16,10 +16,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- Singularity -->
     <string name="lunaris_dashboard_title">Singularity</string>
     <string name="lunaris_dashboard_summary">Jelajahi tanpa batas</string>
     <string name="about_device_name">Perangkat</string>
+
     <!-- Categories -->
     <string name="themes_title">Antarmuka pengguna</string>
     <string name="themes_summary">Perubahan dan kustomisasi UI</string>
@@ -38,6 +40,7 @@
     <string name="miscellaneous_title">Sistem</string>
     <string name="miscellaneous_summary">Pengaturan sistem tambahan</string>
     <string name="quick_settings_media_category">Kategori media QS</string>
+
     <!-- Themes -->
     <string name="themes_general_category">Umum</string>
     <string name="themes_monet_category">Tema UI</string>
@@ -69,64 +72,72 @@
     <string name="udfps_animation_offset_title">Offset animasi UDFPS</string>
     <string name="udfps_animation_offset_summary">Sesuaikan posisi vertikal animasi sidik jari</string>
     <string name="udfps_animation_size_title">Ukuran animasi UDFPS</string>
-    <string name="udfps_animation_size_summary">Adjust the size of fingerprint animation</string>
+    <string name="udfps_animation_size_summary">Sesuaikan ukuran animasi sidik jari</string>
+
     <!-- UDFPS settings -->
-    <string name="udfps_cust_title">UDFPS icon and animation</string>
-    <string name="udfps_cust_summary">Customize fingerprint icon and animation</string>
-    <string name="udfps_custom_title">UDFPS customization</string>
-    <string name="udfps_icon_picker_title">UDFPS prebuilt icon</string>
-    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
-    <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
-    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
-    <string name="udfps_custom_footer_text">Set any custom icon in prebuilt icon before switching or applying custom icon\'s After restart device restart systemui once it will fix invisible/blank custom icon issue </string>
+    <string name="udfps_cust_title">Ikon dan animasi UDFPS</string>
+    <string name="udfps_cust_summary">Sesuaikan ikon dan animasi sidik jari</string>
+    <string name="udfps_custom_title">Kustomisasi UDFPS</string>
+    <string name="udfps_icon_picker_title">Ikon bawaan UDFPS</string>
+    <string name="udfps_icon_picker_summary">Pilih ikon sidik jari favorit Anda</string>
+    <string name="udfps_recog_animation_effect_title">Animasi kustom UDFPS</string>
+    <string name="udfps_recog_animation_effect_summary">Pilih efek animasi</string>
+    <string name="udfps_custom_footer_text">Atur ikon kustom apa pun pada ikon bawaan sebelum beralih atau menerapkan ikon kustom tersebut. Setelah memulai ulang perangkat, mulai ulang SystemUI satu kali; langkah ini akan mengatasi masalah ikon kustom yang tidak terlihat atau kosong.</string>
+
     <!-- UDFPS Icon Type -->
-    <string name="udfps_icon_type_title">Icon type</string>
+    <string name="udfps_icon_type_title">Jenis ikon</string>
+
     <!-- Custom Icon Select -->
-    <string name="udfps_custom_icon_select_title">Select custom icon</string>
-    <string name="udfps_custom_icon_select_summary">Choose an image from gallery</string>
-    <string name="udfps_custom_icon_selected">Custom icon applied</string>
+    <string name="udfps_custom_icon_select_title">Pilih ikon kustom</string>
+    <string name="udfps_custom_icon_select_summary">Pilih gambar dari galeri</string>
+    <string name="udfps_custom_icon_selected">Ikon kustom telah diterapkan</string>
+
     <!-- UDFPS -->
-    <string name="udfps_icon_aod_title">UDFPS icon AOD</string>
-    <string name="udfps_icon_aod_summary">Use custom UDFPS icon on Always-On Display</string>
+    <string name="udfps_icon_aod_title">Ikon UDFPS pada AOD</string>
+    <string name="udfps_icon_aod_summary">Gunakan ikon UDFPS kustom pada Always-On Display</string>
+
     <!-- Toast Messages -->
-    <string name="udfps_custom_icon_processing">Processing custom icon...</string>
-    <string name="udfps_custom_icon_success">Custom icon applied successfully</string>
-    <string name="udfps_custom_icon_error">Failed to apply custom icon</string>
-    <string name="udfps_custom_icon_picker_error">No gallery app found</string>
+    <string name="udfps_custom_icon_processing">Memproses ikon kustom...</string>
+    <string name="udfps_custom_icon_success">Ikon kustom berhasil diterapkan</string>
+    <string name="udfps_custom_icon_error">Gagal menerapkan ikon kustom</string>
+    <string name="udfps_custom_icon_picker_error">Tidak ada aplikasi galeri yang ditemukan</string>
+
     <!-- Personalization Categories -->
-    <string name="button_title">Buttons</string>
-    <string name="lockscreen_title">Lock Screen</string>
+    <string name="button_title">Tombol</string>
+    <string name="lockscreen_title">Layar Kunci</string>
     <string name="misc_title">Miscellaneous</string>
-    <string name="navigation_title">Navigation</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="sound_title">Sound</string>
-    <string name="sound_summary">Sound and vibration settings</string>
-    <string name="statusbar_title">Status Bar</string>
-    <string name="display_title">Display</string>
-    <string name="ui_title">User Interface</string>
-    <string name="lock_screen_charging_category">Lock screen charging animation</string>
-    <string name="extras_category">Extras</string>
+    <string name="navigation_title">Navigasi</string>
+    <string name="quicksettings_title">Pengaturan Cepat</string>
+    <string name="sound_title">Suara</string>
+    <string name="sound_summary">Pengaturan suara dan getaran</string>
+    <string name="statusbar_title">Bilah status</string>
+    <string name="display_title">Menampilkan</string>
+    <string name="ui_title">Antarmuka Pengguna</string>
+    <string name="lock_screen_charging_category">Animasi pengisian daya layar kunci</string>
+    <string name="extras_category">Tambahan</string>
+
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="press_color_to_apply">Tekan warna di bawah untuk menerapkannya.</string>
+    <string name="set">Mengatur</string>
+    <string name="color_default">Bawaan</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
-    <string name="discard_changes">Discard changes</string>
-    <string name="never">Never</string>
-    <string name="always">Always</string>
-    <string name="caution">Caution</string>
-    <string name="delete">Delete</string>
-    <string name="delete_message">Remove selected item?</string>
-    <string name="choose_app">Choose app</string>
+    <string name="reset">Mengatur ulang</string>
+    <string name="cancel">Membatalkan</string>
+    <string name="save">Menyimpan</string>
+    <string name="discard_changes">Batalkan perubahan</string>
+    <string name="never">Tidak pernah</string>
+    <string name="always">Selalu</string>
+    <string name="caution">Peringatan</string>
+    <string name="delete">Menghapus</string>
+    <string name="delete_message">Hapus item yang dipilih?</string>
+    <string name="choose_app">Pilih aplikasi</string>
     <string name="enable">Enable</string>
     <string name="disable">Disable</string>
-    <string name="accent_color">Accent color</string>
-    <string name="notification_color">Notification color</string>
+    <string name="accent_color">Warna aksen</string>
+    <string name="notification_color">Warna notifikasi</string>
     <string name="wallpaper_color">Warna wallpaper</string>
     <string name="rainbow_color">Warna pelangi</string>
     <string name="custom_color">Warna kustom</string>
@@ -134,6 +145,7 @@
     <string name="restart_systemui">Muat ulang SystemUI agar perubahan diterapkan!</string>
     <string name="default_value">Bawaan</string>
     <string name="apply">Menerapkan</string>
+    
     <!-- Ongoing action chip -->
     <string name="ongoing_progress_settings_title">Chip tindakan bilah status</string>
     <string name="ongoing_progress_settings_summary">Customize action chip to show progress indicator</string>
